@@ -49,8 +49,7 @@ table {
 /* General Styling */
 html {
     font-family: 'Playfair Display', serif;
-    font-size: 18px;
-    
+    font-size: 18px;   
 }
 
 strong{
@@ -61,16 +60,19 @@ strong{
     font-family: 'Playfair Display', serif;
     line-height: 1.5;
     font-size: 1rem;
+    text-align: justify;
 }
 
 .title {
     font-family: 'Raleway', sans-serif;
     margin: 1rem;
     font-size: 3rem;
+    text-align: center;
 }
 
 .container {
-    width: 45rem;
+    width: 1050px;
+    margin: 0 auto;
 }
 
 /* Navigation Menu */
@@ -162,25 +164,19 @@ html, body { /* This basically resets any inherit styling */
 }
 /* Education Section */
 
-.education-banner {
-    height: 100%; /* Makes sure the background spans the entire screen */
-    width: 100%; 
-    margin: auto;
-    
-    display: table;
-    top: 0;
-    background-size: cover;
+.education-banner { 
+  border: 1px solid red;
 }
 
 .education-banner-main-content {
-    width: 1050px;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;   
 }
 
 .education-banner-summary-content {
-    width: 1050px;
+    
     text-align: justify;
     margin-top: 1rem;
 }
@@ -191,8 +187,72 @@ html, body { /* This basically resets any inherit styling */
     align-items: center;
 }
 
-#rlo1, #rlo2 {
+/* Experience Section */
+.experience-banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.experience-banner-main-content {
+    
+}
+
+.experience-banner-image-container img {
     height: 300px;
+}
+
+.experience {
+    
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.experience p {
+    display: inline-block;
+    margin: 1rem;
+}
+/* Hobbies Section */
+
+.hobbies-banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hobbies-banner-main-content {
+    display: flex;
+}
+
+.sports-container, .reading-container, .music-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sports-container, .reading-container {
+    margin-right: 2rem;
+}
+
+.sports-icon-container img, .reading-icon-container img, .music-icon-container img {
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.sports-summary p, .reading-summary p, .music-summary p {
+    width: 300px;
+    text-align: center;
+}
+
+.reading-image-container img, .music-image-container img {
+    width: 300px;
+    margin-top: 1rem;
+}
+
+.sports-image-container img {
+    width: 300px;
+    margin-top: 2.5rem;
 }
 /* Footer Section */
 footer {
@@ -217,5 +277,10 @@ footer {
 }
 
 .copyright-info {
+    margin-top: 1rem;
+}
+
+.citations h6 {
+    font-size: 0.5rem;
     margin-top: 1rem;
 }
