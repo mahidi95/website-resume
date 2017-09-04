@@ -164,10 +164,6 @@ html, body { /* This basically resets any inherit styling */
 }
 /* Education Section */
 
-.education-banner { 
-  border: 1px solid red;
-}
-
 .education-banner-main-content {
     
     display: flex;
@@ -194,16 +190,11 @@ html, body { /* This basically resets any inherit styling */
     align-items: center;   
 }
 
-.experience-banner-main-content {
-    
-}
-
 .experience-banner-image-container img {
     height: 300px;
 }
 
-.experience {
-    
+.experience {  
     display: flex;
     align-items: center;
     margin: 1rem;
@@ -276,11 +267,11 @@ footer {
     margin-right: 0.5rem;
 }
 
-.copyright-info {
+.copyright-info, .email-info {
     margin-top: 1rem;
 }
 
 .citations h6 {
     font-size: 0.5rem;
-    margin-top: 1rem;
+    margin: 1rem;
 }
